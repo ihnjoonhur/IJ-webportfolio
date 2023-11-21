@@ -1,8 +1,7 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+// Increase the maximum number of listeners for EventEmitters
+require('events').EventEmitter.defaultMaxListeners = 15; // Adjust the number as needed
+
+// Rest of your code...
 
 const path = require('path');
 const _ = require('lodash');
